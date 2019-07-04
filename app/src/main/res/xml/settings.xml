@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<ListPreference android:key="UNDERPOPULATION_VARIABLE"
+    android:title="Minimum variable"
+    android:summary="Any live cell with fewer than the minimum number of live neighbours dies, as if caused by under-pipulation"
+    android:entries="@array/underpopulation_options"
+    android:entryValues="@array/underpopulation_values"
+    android:dialogTitle="Minimum variable" android:defaultValue="3"
+</PreferenceScreen>
